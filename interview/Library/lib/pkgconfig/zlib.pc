@@ -1,0 +1,13 @@
+prefix=D:/Job_Switch/KALBCMP/GenAI_Interview_Crack/GenAI_Practice/InterviewQuestionCreator/interview/Library
+exec_prefix=D:/Job_Switch/KALBCMP/GenAI_Interview_Crack/GenAI_Practice/InterviewQuestionCreator/interview/Library
+libdir=D:/Job_Switch/KALBCMP/GenAI_Interview_Crack/GenAI_Practice/InterviewQuestionCreator/interview/Library/lib
+sharedlibdir=D:/Job_Switch/KALBCMP/GenAI_Interview_Crack/GenAI_Practice/InterviewQuestionCreator/interview/Library/lib
+includedir=D:/Job_Switch/KALBCMP/GenAI_Interview_Crack/GenAI_Practice/InterviewQuestionCreator/interview/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
